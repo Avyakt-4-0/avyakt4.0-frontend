@@ -12,6 +12,7 @@ import Card from '@/components/card';
 import Guests from '@/components/guests';
 import Multiverse from '@/components/multiverse';
 import Clubs from '@/components/clubs';
+import Footer from '@/components/footer';
 // Font files can be colocated inside of `pages`
 const titleFont = localFont({ src: '../../public/fonts/ARB.ttf' })
 const usangelFont = localFont({ src: '../../public/fonts/usangel.ttf' })
@@ -84,53 +85,8 @@ export default function Home() {
                 <h1 className={`${ibmFont.className} lg:text-[40px] lg:mx-24 text-start pt-2 uppercase`}>here are the clubs which collaborate with avyakt to make it more awesome</h1>
             </div>
 
-
-
-
-            <div className="footer w-full pt-40">
-               <div className="avyaktbg bg-footer_bg bg-no-repeat bg-center bg-contain" style={{ paddingTop: '18%' }}></div>
-              </div>
-              <div className="madeByTeam h-[900px] w-full bg-[#EF8713] flex flex-col justify-between pb-10 pl-14">
-
-
-               <div className="copyright flex flex-col items-end pt-6 pr-6 justify-between  ">
-                <h3 className='font-montserrat font-bold text-[20px] leading-[20px] text-[#D9D9D9]'>copyright @Avaykt 2025 </h3>
-                <h3 className='font-montserrat font-bold text-[20px] leading-[20px] align-middle mt-1'>Made by ❤️ of Our team</h3>
-               </div>
-
-               <div className="footerlogo  h-[600px]  flex flex-col gap-7 relative">
-                <img src="./images/DAMN !.svg" className='h-[156px] w-[491px]' alt=""/>
-                <img src="./images/You Love.svg" className='h-[156px] w-[611px]' alt=""/>
-                <img src="./images/Scrolling.svg" className='h-[156px] w-[700px]' alt=""/>
-                <div className='absolute right-[10px] top-[170px] h-[300px] w-[64px] flex flex-col gap-2'>
-                    <a href="">
-                    <IoLogoInstagram className='w-[44px] h-[55px] text-black' />
-                    </a>
-                    <a href="">
-                   <FaLinkedinIn  className='w-[44px] h-[55px] text-black'/>
-                    </a>
-                    <a href="">
-                    <FaFacebookF  className='w-[44px] h-[55px] text-black'/>
-                    </a>
-                    <a href="">
-                    <FaYoutube  className='w-[44px] h-[55px] text-black'/>
-                    </a>
-                </div>
-               </div>
-                               
-                               
-                <div className="footerlogo h-full mt-[170px]   flex gap-6 items-center">
-                <img src="./images/gietlogo 1.svg" className='h-[109px] w-[135px]' alt=""/>
-                <img src="./images/avyakt-logo-b 1.svg" className='h-[85px] w-[131px]' alt=""/>
-                <img src="./images/Mask group.svg" className='h-[117.32px] w-[125.19px]' alt=""/>
-                </div>
-
-
-
-              </div>
-              
-
-
+            {/* footer */}
+            <Footer />
         </div>
     );
 }
