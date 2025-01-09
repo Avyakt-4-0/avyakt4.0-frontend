@@ -19,6 +19,7 @@ export default {
         event_bg: "url('/images/background.svg')",
         card_border_bg: "url('/images/card-border.svg')",
         club_bg: "url('/images/club.png')",
+        footer_bg:"url('/images/footer.svg')"
       },
       boxShadow: {
         xs: "1px 1px 0 0 rgba(250, 134, 27, 0.5)",
