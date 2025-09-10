@@ -32,5 +32,9 @@
     "tailwindcss-motion": "^1.0.1",
     "tailwindcss-textshadow": "^2.1.3",
     "typescript": "^5"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }

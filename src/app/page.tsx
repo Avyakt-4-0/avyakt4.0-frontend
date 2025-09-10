@@ -4,6 +4,11 @@ import localFont from 'next/font/local'
 import Image from 'next/image';
 import { Jersey_10 } from 'next/font/google'
 import { IBM_Plex_Mono } from 'next/font/google'
+import { IoLogoInstagram } from "react-icons/io5";
+import { FaLinkedinIn } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
+
 import Card from '@/components/card';
 import Guests from '@/components/guests';
 import Multiverse from '@/components/multiverse';
